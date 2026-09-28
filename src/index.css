@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html,
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #e6f7f2;
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(20, 184, 166, 0.22) 0px, transparent 55%),
+      radial-gradient(at 100% 0%, rgba(6, 182, 212, 0.20) 0px, transparent 55%),
+      radial-gradient(at 50% 100%, rgba(52, 211, 153, 0.16) 0px, transparent 55%),
+      linear-gradient(135deg, #e6f7f2 0%, #edfbf7 50%, #e0f2fe 100%);
+    background-attachment: fixed;
+    color: #0f172a;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+  }
+}
+
+/* KaTeX formula font adjustments */
+.katex {
+  font-size: 1.05em;
+  text-rendering: auto;
+}
+
+.katex-display {
+  margin: 0.6em 0 !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+}

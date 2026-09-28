@@ -1,0 +1,6 @@
+{
+  "name": "PHY-AI LAB",
+  "description": "Phòng thí nghiệm Vật lí thông minh: AI phân tích video thí nghiệm thực tế THPT (Lớp 10 - 12) phục vụ Kì thi THPT Quốc gia, phòng mô phỏng ảo tương tác và trợ lý AI giải thích nguyên lí chuyên sâu.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
